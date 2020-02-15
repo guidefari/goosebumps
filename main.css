@@ -2,8 +2,10 @@
 
 }
 
-.home_banner > img {
+.home_banner {
    width: 100vw;
    height: 70vh;
    margin: -8px;
+   background-image: url(/img/couch-disc-jockey-dj-headphone-1688.jpg);
+   background-size: cover;
 }
