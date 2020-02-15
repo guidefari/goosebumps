@@ -2,6 +2,8 @@
 
 }
 
-.home_banner{
-   
+.home_banner > img {
+   width: 100vw;
+   height: 70vh;
+   margin: -8px;
 }
