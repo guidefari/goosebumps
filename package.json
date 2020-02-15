@@ -1,0 +1,23 @@
+{
+  "name": "Goosebumps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwind build src/style.css -o dist/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jackingoose/goosebumps.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jackingoose/goosebumps/issues"
+  },
+  "homepage": "https://github.com/jackingoose/goosebumps#readme",
+  "dependencies": {
+    "tailwindcss": "^1.2.0"
+  }
+}
