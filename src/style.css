@@ -3,3 +3,11 @@
 @tailwind components;
 
 @tailwind utilities;
+
+
+.home_banner {
+    width: 100vw;
+    height: 70vh;
+    background-image: url(/img/couch-disc-jockey-dj-headphone-1688.jpg);
+    background-size: cover;
+ }
