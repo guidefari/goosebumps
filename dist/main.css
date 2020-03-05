@@ -13998,12 +13998,13 @@ video {
   transition-duration: 1000ms;
 }
 
-.home_banner {
-  width: 100vw;
-  height: 70vh;
-  background-image: url(/img/couch-disc-jockey-dj-headphone-1688.jpg);
-  background-size: cover;
-}
+/*.home_banner {
+    width: 100vw;
+    height: 70vh;
+    background-image: url(/img/Artboard-xd.svg);
+    background-size: cover;
+ }
+ */
 
 @media (min-width: 640px) {
   .sm\:sr-only {
