@@ -22,6 +22,8 @@ module.exports = {
         5:'#00072D',
       },
 
+  
+
       gray: {
         100: '#f7fafc',
         200: '#edf2f7',
@@ -180,7 +182,7 @@ module.exports = {
       sm: '0.125rem',
       default: '0.25rem',
       md: '0.375rem',
-      lg: '0.5rem',
+      lg: '1.6rem',
       full: '9999px',
     },
     borderWidth: {
@@ -214,6 +216,15 @@ module.exports = {
     },
     fill: {
       current: 'currentColor',
+      1: {
+        1:'#292C30',
+        2:'#C0996B',
+        3:'#A07822',
+        4:'#001C55',
+        5:'#00072D',
+      },
+
+
     },
     flex: {
       '1': '1 1 0%',
@@ -320,6 +331,7 @@ module.exports = {
     }),
     maxHeight: {
       full: '100%',
+      twothirds: '80vh',
       screen: '100vh',
     },
     maxWidth: (theme, { breakpoints }) => ({
@@ -339,11 +351,13 @@ module.exports = {
     }),
     minHeight: {
       '0': '0',
+      twothirds: '80vh',
       full: '100%',
       screen: '100vh',
     },
     minWidth: {
       '0': '0',
+      twothirds: '80vh',
       full: '100%',
     },
     objectPosition: {

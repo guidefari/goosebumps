@@ -3136,7 +3136,7 @@ video {
 }
 
 .rounded-lg {
-  border-radius: 0.5rem;
+  border-radius: 1.6rem;
 }
 
 .rounded-full {
@@ -3224,23 +3224,23 @@ video {
 }
 
 .rounded-t-lg {
-  border-top-left-radius: 0.5rem;
-  border-top-right-radius: 0.5rem;
+  border-top-left-radius: 1.6rem;
+  border-top-right-radius: 1.6rem;
 }
 
 .rounded-r-lg {
-  border-top-right-radius: 0.5rem;
-  border-bottom-right-radius: 0.5rem;
+  border-top-right-radius: 1.6rem;
+  border-bottom-right-radius: 1.6rem;
 }
 
 .rounded-b-lg {
-  border-bottom-right-radius: 0.5rem;
-  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 1.6rem;
+  border-bottom-left-radius: 1.6rem;
 }
 
 .rounded-l-lg {
-  border-top-left-radius: 0.5rem;
-  border-bottom-left-radius: 0.5rem;
+  border-top-left-radius: 1.6rem;
+  border-bottom-left-radius: 1.6rem;
 }
 
 .rounded-t-full {
@@ -3328,19 +3328,19 @@ video {
 }
 
 .rounded-tl-lg {
-  border-top-left-radius: 0.5rem;
+  border-top-left-radius: 1.6rem;
 }
 
 .rounded-tr-lg {
-  border-top-right-radius: 0.5rem;
+  border-top-right-radius: 1.6rem;
 }
 
 .rounded-br-lg {
-  border-bottom-right-radius: 0.5rem;
+  border-bottom-right-radius: 1.6rem;
 }
 
 .rounded-bl-lg {
-  border-bottom-left-radius: 0.5rem;
+  border-bottom-left-radius: 1.6rem;
 }
 
 .rounded-tl-full {
@@ -5241,6 +5241,10 @@ video {
   max-height: 100%;
 }
 
+.max-h-twothirds {
+  max-height: 80vh;
+}
+
 .max-h-screen {
   max-height: 100vh;
 }
@@ -5313,6 +5317,10 @@ video {
   min-height: 0;
 }
 
+.min-h-twothirds {
+  min-height: 80vh;
+}
+
 .min-h-full {
   min-height: 100%;
 }
@@ -5323,6 +5331,10 @@ video {
 
 .min-w-0 {
   min-width: 0;
+}
+
+.min-w-twothirds {
+  min-width: 80vh;
 }
 
 .min-w-full {
@@ -10275,6 +10287,26 @@ video {
 
 .focus\:shadow-none:focus {
   box-shadow: none;
+}
+
+.fill-1-1 {
+  fill: #292C30;
+}
+
+.fill-1-2 {
+  fill: #C0996B;
+}
+
+.fill-1-3 {
+  fill: #A07822;
+}
+
+.fill-1-4 {
+  fill: #001C55;
+}
+
+.fill-1-5 {
+  fill: #00072D;
 }
 
 .fill-current {
@@ -16908,7 +16940,7 @@ html {
   }
 
   .sm\:rounded-lg {
-    border-radius: 0.5rem;
+    border-radius: 1.6rem;
   }
 
   .sm\:rounded-full {
@@ -16996,23 +17028,23 @@ html {
   }
 
   .sm\:rounded-t-lg {
-    border-top-left-radius: 0.5rem;
-    border-top-right-radius: 0.5rem;
+    border-top-left-radius: 1.6rem;
+    border-top-right-radius: 1.6rem;
   }
 
   .sm\:rounded-r-lg {
-    border-top-right-radius: 0.5rem;
-    border-bottom-right-radius: 0.5rem;
+    border-top-right-radius: 1.6rem;
+    border-bottom-right-radius: 1.6rem;
   }
 
   .sm\:rounded-b-lg {
-    border-bottom-right-radius: 0.5rem;
-    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 1.6rem;
+    border-bottom-left-radius: 1.6rem;
   }
 
   .sm\:rounded-l-lg {
-    border-top-left-radius: 0.5rem;
-    border-bottom-left-radius: 0.5rem;
+    border-top-left-radius: 1.6rem;
+    border-bottom-left-radius: 1.6rem;
   }
 
   .sm\:rounded-t-full {
@@ -17100,19 +17132,19 @@ html {
   }
 
   .sm\:rounded-tl-lg {
-    border-top-left-radius: 0.5rem;
+    border-top-left-radius: 1.6rem;
   }
 
   .sm\:rounded-tr-lg {
-    border-top-right-radius: 0.5rem;
+    border-top-right-radius: 1.6rem;
   }
 
   .sm\:rounded-br-lg {
-    border-bottom-right-radius: 0.5rem;
+    border-bottom-right-radius: 1.6rem;
   }
 
   .sm\:rounded-bl-lg {
-    border-bottom-left-radius: 0.5rem;
+    border-bottom-left-radius: 1.6rem;
   }
 
   .sm\:rounded-tl-full {
@@ -19013,6 +19045,10 @@ html {
     max-height: 100%;
   }
 
+  .sm\:max-h-twothirds {
+    max-height: 80vh;
+  }
+
   .sm\:max-h-screen {
     max-height: 100vh;
   }
@@ -19085,6 +19121,10 @@ html {
     min-height: 0;
   }
 
+  .sm\:min-h-twothirds {
+    min-height: 80vh;
+  }
+
   .sm\:min-h-full {
     min-height: 100%;
   }
@@ -19095,6 +19135,10 @@ html {
 
   .sm\:min-w-0 {
     min-width: 0;
+  }
+
+  .sm\:min-w-twothirds {
+    min-width: 80vh;
   }
 
   .sm\:min-w-full {
@@ -24047,6 +24091,26 @@ html {
 
   .sm\:focus\:shadow-none:focus {
     box-shadow: none;
+  }
+
+  .sm\:fill-1-1 {
+    fill: #292C30;
+  }
+
+  .sm\:fill-1-2 {
+    fill: #C0996B;
+  }
+
+  .sm\:fill-1-3 {
+    fill: #A07822;
+  }
+
+  .sm\:fill-1-4 {
+    fill: #001C55;
+  }
+
+  .sm\:fill-1-5 {
+    fill: #00072D;
   }
 
   .sm\:fill-current {
@@ -30669,7 +30733,7 @@ html {
   }
 
   .md\:rounded-lg {
-    border-radius: 0.5rem;
+    border-radius: 1.6rem;
   }
 
   .md\:rounded-full {
@@ -30757,23 +30821,23 @@ html {
   }
 
   .md\:rounded-t-lg {
-    border-top-left-radius: 0.5rem;
-    border-top-right-radius: 0.5rem;
+    border-top-left-radius: 1.6rem;
+    border-top-right-radius: 1.6rem;
   }
 
   .md\:rounded-r-lg {
-    border-top-right-radius: 0.5rem;
-    border-bottom-right-radius: 0.5rem;
+    border-top-right-radius: 1.6rem;
+    border-bottom-right-radius: 1.6rem;
   }
 
   .md\:rounded-b-lg {
-    border-bottom-right-radius: 0.5rem;
-    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 1.6rem;
+    border-bottom-left-radius: 1.6rem;
   }
 
   .md\:rounded-l-lg {
-    border-top-left-radius: 0.5rem;
-    border-bottom-left-radius: 0.5rem;
+    border-top-left-radius: 1.6rem;
+    border-bottom-left-radius: 1.6rem;
   }
 
   .md\:rounded-t-full {
@@ -30861,19 +30925,19 @@ html {
   }
 
   .md\:rounded-tl-lg {
-    border-top-left-radius: 0.5rem;
+    border-top-left-radius: 1.6rem;
   }
 
   .md\:rounded-tr-lg {
-    border-top-right-radius: 0.5rem;
+    border-top-right-radius: 1.6rem;
   }
 
   .md\:rounded-br-lg {
-    border-bottom-right-radius: 0.5rem;
+    border-bottom-right-radius: 1.6rem;
   }
 
   .md\:rounded-bl-lg {
-    border-bottom-left-radius: 0.5rem;
+    border-bottom-left-radius: 1.6rem;
   }
 
   .md\:rounded-tl-full {
@@ -32774,6 +32838,10 @@ html {
     max-height: 100%;
   }
 
+  .md\:max-h-twothirds {
+    max-height: 80vh;
+  }
+
   .md\:max-h-screen {
     max-height: 100vh;
   }
@@ -32846,6 +32914,10 @@ html {
     min-height: 0;
   }
 
+  .md\:min-h-twothirds {
+    min-height: 80vh;
+  }
+
   .md\:min-h-full {
     min-height: 100%;
   }
@@ -32856,6 +32928,10 @@ html {
 
   .md\:min-w-0 {
     min-width: 0;
+  }
+
+  .md\:min-w-twothirds {
+    min-width: 80vh;
   }
 
   .md\:min-w-full {
@@ -37808,6 +37884,26 @@ html {
 
   .md\:focus\:shadow-none:focus {
     box-shadow: none;
+  }
+
+  .md\:fill-1-1 {
+    fill: #292C30;
+  }
+
+  .md\:fill-1-2 {
+    fill: #C0996B;
+  }
+
+  .md\:fill-1-3 {
+    fill: #A07822;
+  }
+
+  .md\:fill-1-4 {
+    fill: #001C55;
+  }
+
+  .md\:fill-1-5 {
+    fill: #00072D;
   }
 
   .md\:fill-current {
@@ -44430,7 +44526,7 @@ html {
   }
 
   .lg\:rounded-lg {
-    border-radius: 0.5rem;
+    border-radius: 1.6rem;
   }
 
   .lg\:rounded-full {
@@ -44518,23 +44614,23 @@ html {
   }
 
   .lg\:rounded-t-lg {
-    border-top-left-radius: 0.5rem;
-    border-top-right-radius: 0.5rem;
+    border-top-left-radius: 1.6rem;
+    border-top-right-radius: 1.6rem;
   }
 
   .lg\:rounded-r-lg {
-    border-top-right-radius: 0.5rem;
-    border-bottom-right-radius: 0.5rem;
+    border-top-right-radius: 1.6rem;
+    border-bottom-right-radius: 1.6rem;
   }
 
   .lg\:rounded-b-lg {
-    border-bottom-right-radius: 0.5rem;
-    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 1.6rem;
+    border-bottom-left-radius: 1.6rem;
   }
 
   .lg\:rounded-l-lg {
-    border-top-left-radius: 0.5rem;
-    border-bottom-left-radius: 0.5rem;
+    border-top-left-radius: 1.6rem;
+    border-bottom-left-radius: 1.6rem;
   }
 
   .lg\:rounded-t-full {
@@ -44622,19 +44718,19 @@ html {
   }
 
   .lg\:rounded-tl-lg {
-    border-top-left-radius: 0.5rem;
+    border-top-left-radius: 1.6rem;
   }
 
   .lg\:rounded-tr-lg {
-    border-top-right-radius: 0.5rem;
+    border-top-right-radius: 1.6rem;
   }
 
   .lg\:rounded-br-lg {
-    border-bottom-right-radius: 0.5rem;
+    border-bottom-right-radius: 1.6rem;
   }
 
   .lg\:rounded-bl-lg {
-    border-bottom-left-radius: 0.5rem;
+    border-bottom-left-radius: 1.6rem;
   }
 
   .lg\:rounded-tl-full {
@@ -46535,6 +46631,10 @@ html {
     max-height: 100%;
   }
 
+  .lg\:max-h-twothirds {
+    max-height: 80vh;
+  }
+
   .lg\:max-h-screen {
     max-height: 100vh;
   }
@@ -46607,6 +46707,10 @@ html {
     min-height: 0;
   }
 
+  .lg\:min-h-twothirds {
+    min-height: 80vh;
+  }
+
   .lg\:min-h-full {
     min-height: 100%;
   }
@@ -46617,6 +46721,10 @@ html {
 
   .lg\:min-w-0 {
     min-width: 0;
+  }
+
+  .lg\:min-w-twothirds {
+    min-width: 80vh;
   }
 
   .lg\:min-w-full {
@@ -51569,6 +51677,26 @@ html {
 
   .lg\:focus\:shadow-none:focus {
     box-shadow: none;
+  }
+
+  .lg\:fill-1-1 {
+    fill: #292C30;
+  }
+
+  .lg\:fill-1-2 {
+    fill: #C0996B;
+  }
+
+  .lg\:fill-1-3 {
+    fill: #A07822;
+  }
+
+  .lg\:fill-1-4 {
+    fill: #001C55;
+  }
+
+  .lg\:fill-1-5 {
+    fill: #00072D;
   }
 
   .lg\:fill-current {
@@ -58191,7 +58319,7 @@ html {
   }
 
   .xl\:rounded-lg {
-    border-radius: 0.5rem;
+    border-radius: 1.6rem;
   }
 
   .xl\:rounded-full {
@@ -58279,23 +58407,23 @@ html {
   }
 
   .xl\:rounded-t-lg {
-    border-top-left-radius: 0.5rem;
-    border-top-right-radius: 0.5rem;
+    border-top-left-radius: 1.6rem;
+    border-top-right-radius: 1.6rem;
   }
 
   .xl\:rounded-r-lg {
-    border-top-right-radius: 0.5rem;
-    border-bottom-right-radius: 0.5rem;
+    border-top-right-radius: 1.6rem;
+    border-bottom-right-radius: 1.6rem;
   }
 
   .xl\:rounded-b-lg {
-    border-bottom-right-radius: 0.5rem;
-    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 1.6rem;
+    border-bottom-left-radius: 1.6rem;
   }
 
   .xl\:rounded-l-lg {
-    border-top-left-radius: 0.5rem;
-    border-bottom-left-radius: 0.5rem;
+    border-top-left-radius: 1.6rem;
+    border-bottom-left-radius: 1.6rem;
   }
 
   .xl\:rounded-t-full {
@@ -58383,19 +58511,19 @@ html {
   }
 
   .xl\:rounded-tl-lg {
-    border-top-left-radius: 0.5rem;
+    border-top-left-radius: 1.6rem;
   }
 
   .xl\:rounded-tr-lg {
-    border-top-right-radius: 0.5rem;
+    border-top-right-radius: 1.6rem;
   }
 
   .xl\:rounded-br-lg {
-    border-bottom-right-radius: 0.5rem;
+    border-bottom-right-radius: 1.6rem;
   }
 
   .xl\:rounded-bl-lg {
-    border-bottom-left-radius: 0.5rem;
+    border-bottom-left-radius: 1.6rem;
   }
 
   .xl\:rounded-tl-full {
@@ -60296,6 +60424,10 @@ html {
     max-height: 100%;
   }
 
+  .xl\:max-h-twothirds {
+    max-height: 80vh;
+  }
+
   .xl\:max-h-screen {
     max-height: 100vh;
   }
@@ -60368,6 +60500,10 @@ html {
     min-height: 0;
   }
 
+  .xl\:min-h-twothirds {
+    min-height: 80vh;
+  }
+
   .xl\:min-h-full {
     min-height: 100%;
   }
@@ -60378,6 +60514,10 @@ html {
 
   .xl\:min-w-0 {
     min-width: 0;
+  }
+
+  .xl\:min-w-twothirds {
+    min-width: 80vh;
   }
 
   .xl\:min-w-full {
@@ -65330,6 +65470,26 @@ html {
 
   .xl\:focus\:shadow-none:focus {
     box-shadow: none;
+  }
+
+  .xl\:fill-1-1 {
+    fill: #292C30;
+  }
+
+  .xl\:fill-1-2 {
+    fill: #C0996B;
+  }
+
+  .xl\:fill-1-3 {
+    fill: #A07822;
+  }
+
+  .xl\:fill-1-4 {
+    fill: #001C55;
+  }
+
+  .xl\:fill-1-5 {
+    fill: #00072D;
   }
 
   .xl\:fill-current {
